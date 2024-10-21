@@ -20,13 +20,13 @@
         <h1 class="font-galada">Greenden</h1>
       </div>
 
-      <svg
+      <svg id="btn" 
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        class="size-6 md:hidden"
+        class="size-6 md:hidden cursor-pointer"
       >
         <path
           stroke-linecap="round"
@@ -47,6 +47,22 @@
         </li>
       </ul>
     </nav>
+
+    <div class="fixed bg-green-100 transition-all duration-1000 top-0 z-20 w-[250px] h-[760px] right-0" style="right: -75%" id="sidenav">
+      <p class="font-bold text-right p-5 cursor-pointer" id="close">X</p>
+      <ul class=" text-gray-600 font-medium text-center space-y-5 mt-4">
+        <li class="hover:-translate-y-0.5 transition">
+          <a href="index.html" class="hover:text-black">Home</a>
+        </li>
+        <li class="hover:-translate-y-0.5 transition">
+          <a href="products.html" class="hover:text-black">Product</a>
+        </li>
+        <li class="hover:-translate-y-0.5 transition">
+          <a href="contact.html" class="hover:text-black">Contact</a>
+        </li>
+      </ul>
+
+    </div>
 
     <section
       class="bg-green-100 p-4 flex justify-center items-center gap-20 capitalize"
@@ -104,11 +120,9 @@
 
           <h2 class="text-xl font-medium">Large Assortment</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            officia itaque eveniet non maxime optio iusto, explicabo doloribus
-            obcaecati aperiam ipsam pariatur temporibus repudiandae tempore illo
-            nihil rerum facere at.
+            Explore a wide variety of eco-friendly products that cater to all your sustainable living needs. From reusable materials to organic goods, we provide a diverse selection for a greener lifestyle.
           </p>
+          
         </div>
         <div class="border border-black p-2 m-2 rounded-lg">
           <svg
@@ -128,11 +142,9 @@
 
           <h2 class="text-xl font-medium">Free and fast shipping</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            officia itaque eveniet non maxime optio iusto, explicabo doloribus
-            obcaecati aperiam ipsam pariatur temporibus repudiandae tempore illo
-            nihil rerum facere at.
+            Our dedicated support team is available 24/7 to assist you with any questions or concerns, providing guidance and ensuring a smooth shopping experience from start to finish.
           </p>
+          
         </div>
         <div class="border border-black p-2 m-2 rounded-lg">
           <svg
@@ -152,11 +164,9 @@
 
           <h2 class="text-xl font-medium">24/7 support</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
-            officia itaque eveniet non maxime optio iusto, explicabo doloribus
-            obcaecati aperiam ipsam pariatur temporibus repudiandae tempore illo
-            nihil rerum facere at.
+            Our dedicated support team is available 24/7 to assist you with any questions or concerns, providing guidance and ensuring a smooth shopping experience from start to finish.
           </p>
+          
         </div>
       </div>
     </section>
@@ -286,10 +296,10 @@
     <section class="bg-green-100 p-5 mt-3">
       <h1 class="text-3xl font-bold mx-10 mb-3">greenden</h1>
       <p class="mx-10">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-        similique.
+        Dedicated to promoting eco-friendly practices and sustainability. Join us in making the world a greener place by adopting small, impactful changes.
       </p>
       <p class="mx-10">@ 2021 greenden.com</p>
     </section>
   </body>
+  <script src="index.js"></script>
 </html>
